@@ -1,0 +1,133 @@
+CSE373 Spring 2014
+Homework 3 Feedback
+
+StudentID: OUN,YI-CHING_youn0001 
+
+Total (100 pts): 99
+Overall Comments:
+
+===============================================================================
+Correctness: 39/39
+===============================================================================
+
+**************** Correctness total from script: 39
+
+13/13  BinaryHeap Tests
+13/13  ThreeHeap Tests
+13/13  MyPQ Tests
+ 
+
+**************** Other Correctness Penalties (max -13 each file): -*
+
+
+===============================================================================
+Style: 22/23
+===============================================================================
+
+**************** Style (23 pts): 22
+
+Efficiency/Design:
+
+3/3 - BinaryHeap.java
+3/3 - ThreeHeap.java
+3/3 - MyPQ.java 
+
+
+Overall style:
+
+2/2 - Header comments have the student's name
+2/2 - Comment to describe the class 
+3/3 - Comment for each method
+2/2 - Private fields
+1/1 - Variable/method/class NAMES are appropriate, follow conventions
+0/1 - Use final constants rather than magic numbers for initial size of array and size factor.
+1/1 - isEmpty used
+2/2 - No unnecessary if/else, proper use of boolean zen 
+
+
+===============================================================================
+Writeup: 38/38
+===============================================================================
+  
+15/15 #1
+6/6 #2   
+5/5 #3  
+6/6 #4
+6/6 #5 
+
+===============================================================================
+Extra credit: 
+===============================================================================
+
+Possible extra credit: 
+D-HEAP
+GENERIC
+
+===============================================================================
+Test Results:
+===============================================================================
+Imports:
+TestingHeap.java:import java.util.Scanner;
+
+***********************************************************************
+
+
+Grading for user OUN,YI-CHING_youn0001 ...
+
+---------------------------------------------
+Grading BINARY
+---------------------------------------------
+[PASSED] Test isEmpty()
+[PASSED] Test makeEmpty()
+[PASSED] Test size()
+[PASSED] Test findMin() simple
+[PASSED] Test findMin() except
+[PASSED] Test deleteMin() except
+[PASSED] Test deleteMin() simple
+[PASSED] Test insert() stress
+[PASSED] Test insert() simple
+[PASSED] Test insert() duplicates
+[PASSED] Test doubles
+[PASSED] Test complex1
+[PASSED] Test complex2
+Failed 0/13 tests (21 millisec)
+
+---------------------------------------------
+Grading THREE
+---------------------------------------------
+[PASSED] Test isEmpty()
+[PASSED] Test makeEmpty()
+[PASSED] Test size()
+[PASSED] Test findMin() simple
+[PASSED] Test findMin() except
+[PASSED] Test deleteMin() except
+[PASSED] Test deleteMin() simple
+[PASSED] Test insert() stress
+[PASSED] Test insert() simple
+[PASSED] Test insert() duplicates
+[PASSED] Test doubles
+[PASSED] Test complex1
+[PASSED] Test complex2
+Failed 0/13 tests (22 millisec)
+
+---------------------------------------------
+Grading MY_PQ
+---------------------------------------------
+[PASSED] Test isEmpty()
+[PASSED] Test makeEmpty()
+[PASSED] Test size()
+[PASSED] Test findMin() simple
+[PASSED] Test findMin() except
+[PASSED] Test deleteMin() except
+[PASSED] Test deleteMin() simple
+[PASSED] Test insert() stress
+[PASSED] Test insert() simple
+[PASSED] Test insert() duplicates
+[PASSED] Test doubles
+[PASSED] Test complex1
+[PASSED] Test complex2
+Failed 0/13 tests (13 millisec)
+
+
+***********************************************************************
+
